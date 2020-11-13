@@ -12,7 +12,7 @@ class Registered{
         this.subject = subject;
     }
 
-    get() {
+    get info() {
         return "First Name: " + this.firstName + "\nLast Name: " + this.lastName + "\nBirthday: " + this.birthday + "\nGender: " + this.gender + "\nEmail: " + this.email + "\nPhone: " + this.phone + "\nSubject: " + this.subject;
     }
 };
