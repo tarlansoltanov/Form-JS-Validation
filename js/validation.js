@@ -1,5 +1,3 @@
-var users = [];
-
 class Registered{
     constructor(firstName, lastName, birthday, gender, email, phone, subject) {
 
@@ -42,7 +40,6 @@ submit.addEventListener('click', function (e) {
         e.preventDefault();
         return false;
     }
-    users.push(user);
     alert("User Registered Succesfully!\n" + user.info);
 });
 
